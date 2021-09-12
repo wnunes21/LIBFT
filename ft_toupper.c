@@ -6,11 +6,13 @@
 /*   By: wnunes <wnunes@student.42sp.org.br>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/22 22:02:24 by wnunes            #+#    #+#             */
-/*   Updated: 2021/08/23 22:05:17 by wnunes           ###   ########.fr       */
+/*   Updated: 2021/09/11 23:46:07 by wnunes           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_toupper(int c)
+#include "libft.h"
+
+int	ft_toupper(int c)
 {
 	if (c >= 97 && c <= 122)
 	{

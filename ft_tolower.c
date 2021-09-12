@@ -6,11 +6,13 @@
 /*   By: wnunes <wnunes@student.42sp.org.br>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/22 22:09:43 by wnunes            #+#    #+#             */
-/*   Updated: 2021/08/23 22:05:08 by wnunes           ###   ########.fr       */
+/*   Updated: 2021/09/11 23:46:21 by wnunes           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_tolower(int c)
+#include "libft.h"
+
+int	ft_tolower(int c)
 {
 	if (c >= 65 && c <= 90)
 	{

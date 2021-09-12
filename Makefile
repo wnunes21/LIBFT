@@ -7,7 +7,13 @@ SRCS =  ft_isalpha.c	\
 		ft_isprint.c	\
 		ft_toupper.c	\
 		ft_tolower.c	\
-		ft_strlen.c
+		ft_strlen.c	\
+		ft_strcpy.c	\
+		ft_strdup.c	\
+		ft_strchr.c	\
+		ft_strrchr.c	\
+		ft_bzero.c
+
 LIB = libft.h
 OBJS = ${SRCS:%.c=%.o}
 

@@ -6,11 +6,21 @@
 /*   By: wnunes <wnunes@student.42sp.org.br>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/22 22:31:44 by wnunes            #+#    #+#             */
-/*   Updated: 2021/08/23 22:04:31 by wnunes           ###   ########.fr       */
+/*   Updated: 2021/09/11 23:21:48 by wnunes           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
 void	ft_bzero(void *s, size_t n)
 {
+	char	*i;
 
+	i = s;
+	while (n)
+	{
+		*i = 0;
+		i++;
+		n--;
+	}
 }

@@ -6,15 +6,17 @@
 /*   By: wnunes <wnunes@student.42sp.org.br>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/22 22:40:58 by wnunes            #+#    #+#             */
-/*   Updated: 2021/08/23 22:04:23 by wnunes           ###   ########.fr       */
+/*   Updated: 2021/09/11 23:50:26 by wnunes           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_atoi(const char *nptr)
-{
-	while (/* condition */)
-	{
-		/* code */
-	}
+#include "libft.h"
 
+int	ft_atoi(const char *nptr)
+{
+	while (1)
+	{
+		NULL;
+	}
+	return (0);
 }
